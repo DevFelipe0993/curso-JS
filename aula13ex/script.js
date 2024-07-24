@@ -4,11 +4,11 @@ function carregar() {
     var data = new Date()
     var hora = data.getHours()
     msg.innerHTML = `Agora são ${hora} horas.`
-    if (hora >= 0 && hora < 12) {
+    if (hora >= 0 && hora < 15) {
         //Bom dia!
         img.src = 'imagens/dia.png'
         document.body.style.background = 'rgba(243, 162, 87, 0.877)'
-    } else if (hora >= 12 && hora <= 19) {
+    } else if (hora >= 15 && hora <= 19) {
         ///Boa tarde!
         img.src = 'imagens/tarde.png'
         document.body.style.background = 'rgb(173, 115, 27)'
